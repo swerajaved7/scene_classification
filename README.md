@@ -64,3 +64,10 @@ using epoch =50, filters=16, kernel_size=(3,3) gave accuracy score of 75%
 ```bash
 using epoch =3, filters=16, kernel_size=(3,3) gave accuracy score of 57%
 ```
+## To run the trained model
+```bash
+import os
+import tensorflow as tf
+tf.random.set_seed(0)
+loaded_model = tf.keras.models.load_model("D:/Downloads/CNN/your_model1.keras")
+```
