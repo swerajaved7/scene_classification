@@ -64,6 +64,9 @@ using epoch =50, filters=16, kernel_size=(3,3) gave accuracy score of 75%
 ```bash
 using epoch =3, filters=16, kernel_size=(3,3) gave accuracy score of 57%
 ```
+weighted bar plots:
+![image](https://github.com/swerajaved7/scene_classification/assets/153985092/3d2adfe8-19ca-4b29-86be-4e126e922222)
+
 ## To run the trained model
 ```bash
 import os
