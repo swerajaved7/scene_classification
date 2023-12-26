@@ -71,3 +71,5 @@ import tensorflow as tf
 tf.random.set_seed(0)
 loaded_model = tf.keras.models.load_model("D:/Downloads/CNN/your_model1.keras")
 ```
+## Graph
+![image](https://github.com/swerajaved7/scene_classification/assets/153985092/555607b0-a53c-4488-b43b-e3b02e6ffb83)
